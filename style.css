@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: dimgrey;
+}
+p {
+  font-size: 20px;
+  color: aqua;
+  background-color: grey;
+}

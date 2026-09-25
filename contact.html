@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <form onsubmit="return false;">
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="username">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <button type="submit" onclick="showMessage()">SUBMIT</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText = "Form submitted!";
+    }
+  </script>
+</body>
+</html>
